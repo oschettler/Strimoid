@@ -10,4 +10,7 @@ return [
     'register'            => 'sign up',
     'registration'        => 'sign up',
     'logging in'          => 'log in',
+
+    'registered_need_activation' => '
+To complete your registration you still need to activate your account by clicking on the link sent to your email address.',
 ];

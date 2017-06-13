@@ -43,8 +43,7 @@ class RegistrationController extends BaseController
 
         return redirect()->to('')->with(
             'success_msg',
-            'Aby zakończyć rejestrację musisz jeszcze aktywować swoje konto, '.
-            'klikając na link przesłany na twój adres email.'
+            trans('auth.registered_need_activation')
         );
     }
 

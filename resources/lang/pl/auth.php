@@ -10,4 +10,6 @@ return [
     'register'            => 'zarejestruj',
     'registration'        => 'rejestracja',
     'logging in'          => 'logowanie',
+
+    'registered_need_activation' => 'Aby zakończyć rejestrację musisz jeszcze aktywować swoje konto, klikając na link przesłany na twój adres email.',
 ];

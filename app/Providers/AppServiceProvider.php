@@ -58,7 +58,7 @@ class AppServiceProvider extends ServiceProvider
     {
         $userLocales = \Agent::languages();
 
-        foreach (['pl', 'en'] as $locale) {
+        foreach (['de', 'pl', 'en'] as $locale) {
             if (in_array($locale, $userLocales)) {
                 return $locale;
             }
